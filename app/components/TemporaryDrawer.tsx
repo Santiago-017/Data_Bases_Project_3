@@ -6,6 +6,7 @@ import RocketLaunchOutlinedIcon from '@mui/icons-material/RocketLaunchOutlined';
 import SportsBasketballIcon from '@mui/icons-material/SportsBasketball';
 import LocalHospitalIcon from '@mui/icons-material/LocalHospital';
 import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
+import TheaterComedyIcon from '@mui/icons-material/TheaterComedy'
 
 import { Grid, IconButton, Stack, Typography } from '@mui/material';
 import Link from 'next/link';
@@ -61,6 +62,13 @@ export const TemporaryDrawer: React.FC<TemporaryDrawerProperties> = ({ state, se
               <Link href='/pages/salud'>
                 <LocalHospitalIcon></LocalHospitalIcon>
                 <Typography variant="body1" textAlign="center">Salud</Typography>
+              </Link>
+            </IconButton>
+
+            <IconButton>
+              <Link href='/pages/cultura'>
+                <TheaterComedyIcon></TheaterComedyIcon>
+                <Typography variant="body1" textAlign="center">Cultura</Typography>
               </Link>
             </IconButton>
 
